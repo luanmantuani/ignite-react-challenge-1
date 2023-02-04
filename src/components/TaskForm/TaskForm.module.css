@@ -1,0 +1,46 @@
+.taskForm {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.taskInput {
+  background-color: var(--gray-500);
+  color: var(--gray-300);
+  width: 100%;
+  height: 52px;
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.taskInput:focus  {
+  outline: transparent;
+  color: var(--gray-100);
+  border: 1px solid var(--purple);
+}
+
+.taskAddBtn {
+  background-color: var(--blue-dark);
+  color: var(--gray-100);
+  font-weight: bold;
+  border-radius: 8px;
+  height: 52px;
+  border: 0px;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.taskAddBtn:disabled {
+  background-color: var(--gray-300);
+}
+
+.taskAddBtn:not(:disabled):hover {
+  background-color: var(--blue);
+}

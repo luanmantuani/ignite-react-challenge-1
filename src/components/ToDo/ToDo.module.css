@@ -1,0 +1,43 @@
+.toDo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: calc(0px - 1.625rem);
+  padding: 0px 1rem;
+}
+
+.taskInfo{
+  display: flex;
+  margin-top: 4rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.countOfCreatedTask{
+  display: block;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--blue);
+}
+
+.countOfCompletedTask{
+  display: block;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: var(--purple);
+}
+
+.countBadge {
+  margin-left: 0.5rem;
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+  border-radius: 16px;
+  padding: 0.125rem 0.5rem;
+}
+
+.taskList {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}

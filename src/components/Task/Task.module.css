@@ -1,0 +1,64 @@
+.taskItem {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 1px solid var(--gray-400);
+  background-color: var(--gray-500);
+  border-radius: 8px;
+}
+
+.taskCheckboxBtn {
+  border-radius: 50%;
+  line-height: 0px;
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+.taskToDoCheckbox {
+  color: var(--blue);
+}
+
+.taskToDoCheckbox:hover {
+  color: var(--blue-dark);
+}
+
+.taskCompletedCheckbox {
+  color: var(--purple-dark);
+}
+
+.taskCompletedCheckbox:hover {
+  color: var(--purple);
+}
+
+.taskDescription {
+  line-height: 1.4;
+  font-size: 0.875rem;
+  justify-content: left;
+  width: 100%;
+}
+
+.taskToDoDescription {
+  color: var(--gray-100);
+}
+
+.taskCompletedDescription {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.taskDeleteBtn {
+  background-color: transparent;
+  color: var(--gray-300);
+  border: 0px;
+  line-height: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.taskDeleteBtn:hover {
+  background-color: var(--gray-400);
+  color: var(--danger);
+}
